@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Alec Hernandez</title>
+
+    <!-- Latest compiled and minified Bootstrap CSS -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./styles.css" type="text/css"/>
+    <link>
+
+  </head>
+
+<body>
+
+  <!--Main container. Everything must be contained within a top-level container.-->
+  <div class="container-fluid">
+
+    <!--First row (only row)-->
+    <div class="row extra_margin">
+
+      <!-- First column (smaller of the two). Will appear on the left on desktop and on the top on mobile. -->
+      <div class="col-md-4 col-sm-12 col-xs-12">
+
+          <!-- Div to center the header image/name/social buttons -->
+          <div class="text-center p-2">
+
+              <img src="https://media.licdn.com/dms/image/C4E03AQGxjPa9p_rIxA/profile-displayphoto-shrink_200_200/0?e=1577923200&v=beta&t=LqRmYe00ElI0BtUNe-0CpWI7kuHdx7T_LgKx3aKbqmA" class="img-rounded"/>
+
+              <!-- Header text (Person's name) -->
+              <h2 id="heading">Alec Hernandez</h2>
+              <label>Change webpage background To:</label>
+              <button type="button" onclick="changeHeadingBg('green');">Green</button>
+
+
+              <!-- Social buttons using anchor elements and btn-primary class to style -->
+              <!-- Bunch of Buttons
+                -->
+              <p>
+                          <a class="btn btn-primary btn-xs" href="https://docs.google.com/document/d/1GayHJgz4II3dhrU1DW8igvrK3F9Z8g8Rt0elWrdyYEM/edit?usp=sharing" role="button">Resume</a>
+                <a class="btn btn-primary btn-xs" href="https://www.linkedin.com/in/alec-hernandez-161121192/" role="button">LinkedIn</a>
+                <p class="lead">My name is Alec Hernandez. I was born, raised, and reside in The Bronx. I graduated as part of the first class of The Cinema School and I was even involved in their partner program The Ghetto Film School. I have done background acting for a few TV shows and even a movie. I am currently taking an Intro-To-Tech course at The Knowledge House where I am learning the basics of UX/UI design. I want to continue acquiring tech skills since my long term goal is to become a video game designer.</p>
+                <!--
+                <a class="btn btn-primary btn-xs" href="#" role="button">Website</a>
+                -->
+              </p>
+
+          </div>
+
+      </div>
+      <!-- end of the buttons-->
+       <!-- End Col 1 -->
+
+      <!-- Second column - for small and extra-small screens, will use whatever # cols is available -->
+      <!-- Fluid jumbotron-->
+      <div class="col-md-8 col-sm-* col-xs-* p-2">
+        <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+
+   
+
+    <h1 class="display-4" id="jumbo">
+      "All roads lead to The Bronx"</h1>
+     <label>
+       Change change jumbotron background To:
+       </label>
+              <button type="button" onclick="changeJumboBg('purple');">purple</button>
+
+    <p class="lead"></p>
+  </div>
+</div>
+<!-- End of JumboTron-->
+
+        <!-- "Lead" text at top of column. -->
+        <p class="lead">For as long as I can remember I've always liked video games (Grand Theft Auto, Fallout, and Syphon Filter) and movies (Back To The Future, Star Wars, and The Warriors).</p>
+
+        <!-- Horizontal rule to add some spacing between the "lead" and body text -->
+        <hr />
+
+
+        <!-- Body text (paragraph 1) -->
+        <p>
+          2009-2013
+        </p>
+
+        <!-- Body text (paragraph 2) -->
+        <p>
+        I attened The Cinema School and The Ghetto Film where I obtained skills in cinematography, editing, and script writing.
+        </p>
+
+        <!-- Body text (paragraph 3) -->
+        <p>
+        2014-2016
+        </p>
+
+        <!-- Body text (paragraph 4) -->
+        <p>
+        I attened Bronx Community College with the intention of majoring in Computer Science. Unfortunately I was not satisfied the quality of education I was getting.
+        </p>
+        
+        <p> 2019-
+        </p>
+        
+        <p>I am currently attending The Knowledge House where I am gaining the tech skills I was hoping to get in college. This was definitely the right choice for me to make.
+          </p>
+
+          <img src= "https://lh3.googleusercontent.com/0spyt84L4ttcOb0KMhT-8SH2RoUmik5-0rN-VNDDRbe1rsIG-_5RAPPbP1nr2nVjbJZkXn7UBseKLakuGU6Vprr6o07nrsV2m-G11ZQfGFNkRZ2kyzVl9nc835_Kxq9cpzt-qIvyENEOr_o7uQrdat2Yz8fux90wMYppfJWASdXRgTb0XE_fVEXdgvCjOtlnqqlkQqXRXVIBoDzvwQCkR5pkahibIr0Dsbp45pVuveN6zrYN99jOidc6tTUKpWtmhpy9VXbFSbo7-CKurNXCvVaGGXLM7gxiFUxMo5WEmwbNBvrhO02MClWkBJzjSRWtjWgAn2vAp19SZ5Uiz3le3Ghyt0SVUETR9dgyS494R2b_r4Ek1jIRPGeIeEJ5Tn-wO0EpSpioRpR-QzF-LBb9HCUXgYWXTvPRDIKmbtVQD7ifn6aYVfNjNfPCJW5QZhkdMP4jUTUvOtgVcy2AKPS4SgrerRac_rhTj8lirSB1yRWlLhhsI2a3x4pKBB_Sa1aO-FupBxWhX2EZ4R8d8Of50a4J1Rc_wo-dk1jypL-_9PnO8ELYHvkwD_HMksFbAjZq53hsKA6kw4hDbrTpScyEOV8p-myRzKG4EFdxqjgPUEJFeg5WMKPmKiGexEzuUjqTfztOJPsMSmEaTE7izwemOeoYL0ZhsHtVW_p5m7_rGmDSzieqaxxgOw=s500-no">
+
+
+
+
+      </div> <!-- End column 2 -->
+
+    </div> <!-- End row 1 -->
+
+  </div> <!-- End main container -->
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
